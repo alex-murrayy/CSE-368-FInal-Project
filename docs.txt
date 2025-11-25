@@ -1,0 +1,188 @@
+
+Project Proposal
+Template
+
+Table of Contents
+
+1	Executive Summary	
+2	Background	
+2.1	History	
+2.2	Requirements	
+2.3	Solution	
+3	Proposal	
+3.1	Vision and Goals	
+3.2	Deliverables	
+3.3	Timeframe	
+3.4	Ownership	
+3.5	Risks & Issues	
+4	Appendix	
+4.1	Supporting Documentation	
+
+Executive Summary
+
+The first step to completing a Project Proposal is to write an Executive Summary. This section will summarize the entire document by describing the background for the project and the proposed Vision, Goals and Timeframes. In essence, it sets the scene for the project and makes the document enticing enough to read and endorse, so that the project can be kicked-off. So summarize each of the sections in this document concisely by outlining the:
+
+History, requirements and proposed solution
+Project vision, goals deliverables and timeframes
+Resources, budget and success criteria.
+
+[Write your content here]
+-Financial Analysts/Bankers/Day Traders
+-Allows to analyze options for stocks
+-Predictions related to stock
+
+
+Our project is to create a product for financial analysts, bankers, and day traders to analyze options related to buying stock to increase the amount of profit made through value. This is through using Artificial Intelligence to look through trends in stock movement over various courses of time as a means to create accurate, and safe predictions of the market for our customers to take into consideration when buying stock. Ideally, we would like to have a finished product by the deadline of Decemebr 8th.
+
+Background
+
+History
+Before you describe the proposal in depth, you need to provide the reader with a brief historical view of the company, so that it sets the context upon which the project will be initiated. As this is the basis upon which the project is created, you need to describe all of the relevant history that has taken place up until now.
+
+THE MODERN HISTORY:
+
+Since the beginning of free markets there have been people using mathematical strategies to increase their odds of profiting on investments. Today, the field of quantitative finance is where most of the advancements in creating market predicting models are made. Many of these firms, such as Renaissance Technologies or Two Sigma, lead the field of quantitative finance. These and others, are massive players in the field that have access and control of the flow of data–and use it to their advantage. However, many of these companies also have proprietary technology and do not make it publicly available. This allows many insiders to rack up enormous profits, while those without the means aimlessly try their luck at turning a profit.
+
+Requirements
+Most projects are created to either solve a business problem or realize and opportunity in the market. This problem or opportunity is the reason that the project is being kicked-off, so you need to describe it here in depth.
+
+Business Problem
+If you have a business problem that needs to be solved by this project, then describe the problem in depth here. Describe the type of problem and symptoms that the business is experiencing as a direct result of the problem. For example, a business problem might be that it is struggling financially, has poor communication or low customer satisfaction. 
+
+Business opportunity
+If you have a business opportunity that needs to be full-filled by the project, then describe it in depth here. Describe the environment within which the opportunity exists, the timeframe in which the opportunity must be taken up on and the way in which the opportunity must be realized. An example of an opportunity is that there is a gap in the market segment for a particular product or service, there is a new technology which can improve the business, or a regulatory change has meant that the business can provide a new product or service that it could not before.
+
+BUSINESS PROBLEM:
+
+
+The business problem that we’re tackling is an issue related to people in the financial market making unwise decisions when it comes to purchasing stock. This could be due to lack of education on the topic, or the person taking the due diligence to analyze the history, and trends of the stock. This often leads to people participating in purchasing stock, and losing value in their investment.
+
+BUSINESS OPPORTUNITY:
+
+Our business opportunity exists in the realm of business. This could be considered a general business tool for people who are educated on the topic, and would like to have extra assistance and advice on their stock purchases. Additionally, this could be used as a tool for people new to the stock market who may lack the context of a specific stock prior to purchasing. 
+Solution
+The next step is to describe the solution to their problem or opportunity that the project must deliver. In describing the solution, you need to make clear the:
+
+Purpose of the solution
+Scope of the solution (i.e. what’s in or out of scope)
+Way in which the solution must be delivered (i.e. approach)
+
+Remember, the project has one purpose and one purpose only, which is “to deliver the solution to that problem or opportunity within the timeframes required”. So the more that you can describe the solution in depth, the easier it will be for the project team to know what has to be delivered and by when.
+
+[Write your content here]
+
+PURPOSE:
+
+Develop a tool to guide analysts in determining the price of stocks developed and backed by historical data and market news about the stock
+
+SCOPE:
+
+We aim to accurately predict the future movement of a handful of stocks so that we can prioritize getting an efficient working model. It would be out of our scope to predict trends and changes across the entire global market. 
+
+DELIVERY: 
+
+We intend to make this application available as a CLI for people to download and use directly from GitHub, encouraging community building and further open source development for our model. 
+
+
+Proposal
+
+In the background section above, you have described the general basis upon which the project will be created. You've described the problem or opportunity that exists in the business and the solution that the project needs to deliver. In this section, it is now time to describe the project that you are proposing is initiated.
+
+Vision and Goals
+State the vision and goals of the project. They need to be “Smart” which means Specific, Measurable, Action orientated, Realistic and Time based. Where possible, try and link in the business problem or opportunity into the Vision so that the project team knows exactly what is being solved by the vision. Here is an example of a project vision:
+“Our vision is to provide financial analysts, day traders, and options traders with a 75% accurate stock price prediction model by the end of the project timeline.”
+
+Then, list 3 goals which relate to our vision above. Again, make them SMART. Here are some examples
+
+“To release a customer satisfaction survey by 1st January 2012”
+“To upgrade our Customer Relationship Management system by a 1st June 2012”
+“To have a personal relationship with all our high-value customers by 1st January 2013”
+
+“To develop an AI stock prediction model that predicts stock prices, achieving at least 75% accuracy.”
+“To integrate financial market data from multiple financial records and sources to ensure quality inputs and accurate prediction by the model.”
+“To validate and test the model under pressure during multiple market conditions, and to achieve at 65% accuracy.”
+
+
+Deliverables
+Every project produces deliverables which form part of the solution that solves the business problem or opportunity. These deliverables with are key to the success of the project and they also define the scope of what must be produced. Therefore it is critical that you list all of the key deliverables that are to be produced in as much depth as possible.
+
+Use the following table to describe deliverables to be produced by the project. Note: a deliverable is something that is produced that is handed over to the customer at the end of the project, as part of the solution. It might be a new product, a new service or a new system for instance.
+
+Project Deliverables
+Title
+Description
+Notes
+AI Stock Price Prediction Model
+An AI model that utilizes machine learning algorithms, designed to serve as tool for financial analyst, day traders and option traders to identify patterns and predict future stock price with maintain an accuracy of at least 75%
+
+
+Model development begins with preprocessing.
+Continuous training and backtesting to improve prediction accuracy
+Model will use real-time data to ensure consistency and recognize financial patterns. 
+
+Timeframe
+
+Describe what the timeframe is and why it is so important that the project deliver the solution within this period of time.
+This timeframe represents the dedicated period to develop and refine the AI model for the stock price prediction system. It is crucial for the team to adhere to this schedule to ensure the deliverables are accurate and reliable. Delays in this plan could result in an unfinished product or incomplete data or model systems, which could impact the ability to provide guaranteed results.
+Ownership
+
+Project Ownership
+Role
+Name
+Contact Details
+Project Sponsor
+
+Risks & Issues
+Risk and issues occur which try and prevent the project from producing the deliverables on time. Use the following two tables to list all of the known risks and issues upfront.
+
+Risks: A risk as defined as “any event which could take place in the future that will prevent the project from producing the deliverables on time”. For instance, a risk might be that the business is unable to resource the project fully as required. For each risk, you need to specify the likelihood of it occurring (high/medium/low).
+Issues: An issue is “something that is right now affecting the project”. For instance, it might be that an issue is that at the moment, there is little funding available to initiate a new project such as this one. For each issue, you need specify the impact it is having on your ability to kick off the project.
+
+Project Risks
+Risk
+Details
+Likelihood
+Inaccurate Data
+Historical or real-time financial data may be incomplete, inconsistent, or outdated, affecting model training and predictions.
+Medium
+Volatility
+Sudden fluctuations or unexpected economic events may reduce prediction reliability.
+
+
+High
+
+Security 
+Unauthorized access to sensitive financial data or model outputs could compromise integrity.
+
+
+Medium
+
+Project Issues
+Issue
+Details
+Impact
+Data Access Restrictions
+Some financial datasets are restricted or require approvals before use.
+
+
+Slows down data collection and preprocessing.
+
+Team Availability 
+Key team members are currently engaged in other tasks or projects.
+
+
+Limits the pace at which the AI model can be developed.
+
+
+Appendix
+Supporting Documentation
+Provide any documentation you believe supports this Project Proposal. It may be:
+
+Company history
+Research materials
+Statistics or estimates
+External quotes or tenders
+Detailed cost / benefit spreadsheets
+Other relevant information or correspondence. ©
+
+[Include your content here]
