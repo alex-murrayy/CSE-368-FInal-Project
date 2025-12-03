@@ -19,6 +19,7 @@ sp500_data = sp500_data.loc["1990-01-01":].copy()
 # Drop the last row which has NaN in Tomorrow (no future data available)
 sp500_data = sp500_data.dropna()
 
+#--- AI Generated Code ---#
 # Diagnostic: Check for NaN values in Target
 print("NaN in Target:", sp500_data["Target"].isna().sum())
 print("\nTarget distribution (before train/test split):")
@@ -36,6 +37,7 @@ model = RandomForestClassifier(n_estimators=100, min_samples_split=20, random_st
 train = sp500_data.iloc[:-100]
 test = sp500_data.iloc[-100:]
 
+#--- AI Generated Code ---#
 # Diagnostic: Check class distribution in train and test sets
 print("\n" + "="*50)
 print("TRAINING SET:")
@@ -47,10 +49,12 @@ print("\nTEST SET:")
 print("Target distribution:", test["Target"].value_counts())
 print(f"Percentage of 1s: {test['Target'].mean()*100:.2f}%")
 print(f"Test samples: {len(test)}")
+#--- AI Generated Code ---#
 
 # Predictors are the features we use to predict the target
 predictors = ["Close", "Volume", "Open", "High", "Low"]
 
+#--- AI Generated Code ---#
 # Diagnostic: Check feature statistics
 print("\n" + "="*50)
 print("FEATURE STATISTICS (Training Set):")
@@ -58,18 +62,22 @@ print(train[predictors].describe())
 
 print("\n" + "="*50)
 print("Training model...")
+#--- AI Generated Code ---#
+
 model.fit(train[predictors], train["Target"])
 
 from sklearn.metrics import precision_score
 
 preds = model.predict(test[predictors])
 
+#--- AI Generated Code ---#
 print("\n" + "="*50)
 print("PREDICTIONS:")
 print(f"Predictions array: {preds}")
 print(f"Unique predictions: {set(preds)}")
 print(f"Number of 0s predicted: {(preds == 0).sum()}")
 print(f"Number of 1s predicted: {(preds == 1).sum()}")
+#--- AI Generated Code ---#
 
 # Convert predictions to pandas Series with same index as test data
 preds_series = pd.Series(preds, index=test.index, name="Predictions")
