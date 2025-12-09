@@ -75,6 +75,6 @@ def next_day_price(ticker):
 
     return lr_next_day_price
 
-next_day_price("AAPL")
+# next_day_price("AAPL")
 
 
