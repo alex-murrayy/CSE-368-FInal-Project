@@ -1,0 +1,1 @@
+from price import predict_tomorrow_price
